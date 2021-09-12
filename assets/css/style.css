@@ -599,7 +599,7 @@ footer .next_btn:hover{
   }
 
 
-  @media screen (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     .info_box{
     width: 100%;
     margin: 0 auto;
@@ -608,11 +608,10 @@ footer .next_btn:hover{
 
 
 
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 800px) {
       .quiz_box{
         width: 100%;
         margin-top: 25px;
-       
+        }
+ 
     }
-
-  }
