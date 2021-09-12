@@ -42,22 +42,23 @@ const result_box = document.querySelector(".result_box");
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 
+//if restartQuiz button clicked
 restart_quiz.onclick = ()=>{
-    quiz_box.classList.add("activeQuiz");
-    result_box.classList.remove("activeResult");
-    let que_count = 0;
-let que_numb = 1;
-let timeValue = 15;
-let widthValue = 0;
-let userScore = 0;
-showQuestions(que_count);
-queCounter(que_numb);
-clearInterval(counter);
-startTimer(timeValue);
-clearInterval(counterLine);
-startTimerLine(widthValue);
-next_btn.style.display = "none";
-timeOff.textContent = "Time Left";
+    quiz_box.classList.add("activeQuiz"); //show quiz box
+    result_box.classList.remove("activeResult"); //hide result box
+    timeValue = 15; 
+    que_count = 0;
+    que_numb = 1;
+    userScore = 0;
+    widthValue = 0;
+    showQuestions(que_count); //calling showQestions function
+    queCounter(que_numb); //passing que_numb value to queCounter
+    clearInterval(counter); //clear counter
+    clearInterval(counterLine); //clear counterLine
+    startTimer(timeValue); //calling startTimer function
+    startTimerLine(widthValue); //calling startTimerLine function
+    timeText.textContent = "Time Left"; //change the text of timeText to Time Left
+    next_btn.classList.remove("show"); //hide the next button
 }
 
 quit_quiz.onclick = ()=>{
@@ -75,8 +76,8 @@ next_btn.onclick = ()=>{
         startTimer(timeValue);
         clearInterval(counterLine);
         startTimerLine(widthValue);
-        next_btn.style.display = "none";
-        timeOff.textContent = "Time Left";
+        timeText.textContent = "Time Left"; //change the timeText to Time Left
+        next_btn.classList.remove("show");
     }else{
         clearInterval(counter);
         clearInterval(counterLine);
@@ -168,9 +169,8 @@ function startTimer(time){
             timeCount.textContent = "0" + addZero;
         }
         if(time < 0){
-            clearInterval(counter);
-            timeCount.textContent = "00";
-            timeOff.textContent = "Time Off";
+            clearInterval(counter); //clear counter
+            timeText.textContent = "Time Off";
 
             let correctAns = questions[que_count].answer;
             let allOptions = option_list.children.length;
