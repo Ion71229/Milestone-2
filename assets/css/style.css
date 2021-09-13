@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&display=swap');
 
 body{
-    font-family: cursive;
+    font-family: 'Cabin', sans-serif;
     font-weight: 300;
     color: #4525fd;
     background-color: aqua;
 }
 
 h1, h2 {
-    font-family: cursive;
+    font-family: 'Cabin', sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #4525fd;
@@ -69,8 +69,9 @@ a {
 
 
 #button {
-    font-size: 25px;
-    font-family: cursive;
+    font-size: 30px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 5px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -88,7 +89,7 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: 'Cabin', sans-serif;
 }
 
 
@@ -164,6 +165,7 @@ a {
 .info_box .info_list .info{
     margin: 5px 0;
     font-size: 17px;
+    letter-spacing: 1px;
 }
 
 
