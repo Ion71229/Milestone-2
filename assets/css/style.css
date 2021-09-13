@@ -4,7 +4,7 @@ body{
     font-family: 'Cabin', sans-serif;
     font-weight: 300;
     color: #4525fd;
-    background-color: aqua;
+    background-color: #00ffff;
 }
 
 h1, h2 {
@@ -80,7 +80,7 @@ a {
     position: relative;
     padding: 2px 80px;
     display: flex;
-    background-color: aqua;
+    background-color: #00ffff;
     border-radius: 30%;
 }
 
@@ -127,7 +127,7 @@ a {
     outline: none;
     border: none;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #ffffff;
     cursor: pointer;
 }
 
@@ -135,7 +135,7 @@ a {
 .info_box{
     
     width: 540px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 5px;
     opacity: 0;
     pointer-events: none;
@@ -146,7 +146,7 @@ a {
 .info_box .info_title{
    height: 60px;
    width: 100%;
-   border-bottom: 1px solid lightgray; 
+   border-bottom: 1px solid #d3d3d3; 
    display: flex;
    align-items: center;
    padding: 0 35px;
@@ -183,7 +183,7 @@ a {
     align-items: center;
     justify-content: flex-end;
     padding: 0 35px;
-    border-top: 1px solid lightgray;
+    border-top: 1px solid #d3d3d3;
 }
 
 
@@ -202,7 +202,7 @@ a {
 
 
 .buttons .restart{
-    color: #fff;
+    color: #ffffff;
     background-color: #4525fd;
 }
 
@@ -218,7 +218,7 @@ a {
 
 
 .buttons .quit:hover{
-    color: #fff;
+    color: #ffffff;
     background: #4525fd;
 }
 
@@ -226,7 +226,7 @@ a {
 .quiz_box{
     
     width: 550px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 5px;
     opacity: 0;
     pointer-events: none;
@@ -239,7 +239,7 @@ a {
     z-index: 99;
     height: 70px;
     padding: 0 30px;
-    background: #fff;
+    background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -281,7 +281,7 @@ a {
     background: #0000009c;
     height: 30px;
     width: 45px;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     line-height: 30px;
     border-radius: 5px;
@@ -301,7 +301,7 @@ a {
 
 .quiz_box section{
     padding: 25px 30px 20px 30px;
-    background: #fff;
+    background: #ffffff;
 }
 
 
@@ -318,7 +318,7 @@ a {
 
 
  section .option_list .option{
-    background: aliceblue;
+    background: #f0f8ff;
     border: 1px solid #a0ceff;
     border-radius: 5px;
     padding: 8px 15px;
@@ -424,7 +424,7 @@ footer .next_btn{
     font-weight: 400;
     border: none;
     outline: none;
-    color: #fff;
+    color: #ffffff;
     background: #4525fd;
     border-radius: 5px;
     border: 1px solid #4525fd;
@@ -438,7 +438,7 @@ footer .next_btn:hover{
 
 
 .result_box{
-   background: #fff;
+   background: #ffffff;
    width: 450px;
    padding: 25px 30px;
    border-radius: 5px;
@@ -463,7 +463,7 @@ footer .next_btn:hover{
 .result_box .complete_text{
     font-size: 20px;
     font-weight: 600;
-    color: black;
+    color: #000000;
 }
 
 
@@ -473,7 +473,7 @@ footer .next_btn:hover{
     font-size: 18px;
     font-weight: 600;
     align-items: center;
-    color: black;
+    color: #000000;
 }
 
 
@@ -534,15 +534,15 @@ footer .next_btn:hover{
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #04aa6d;
+    color: #ffffff;
     padding: 12px 20px;
     border: none;
     cursor: pointer;

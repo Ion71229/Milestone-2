@@ -102,7 +102,7 @@ function showQuestions(game){
         option[i].setAttribute("onclick","optionSelected(this)");
         
     }
-};
+}
 let tickIcon = ' <div class="icon tick"><i class="fas fa-check"></i></div>' ;
 let crossIcon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
@@ -137,7 +137,7 @@ function optionSelected(answer){
         
     }
     next_btn.style.display = "block";
-};
+}
 
 function showResultBox(){
     info_box.classList.remove("activeInfo");//hide the info box
@@ -157,7 +157,7 @@ function showResultBox(){
        scoreText.innerHTML = scoreTag;
     }
 
-};
+}
 
 function startTimer(time){
     counter = setInterval(timer, 1000);
