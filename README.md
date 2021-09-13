@@ -9,3 +9,13 @@ Users of the game will learn the rules on how to play the Quiz Game and be able 
 - Header
     - Spotlighted at the top of the page, the header shows the game name; Quiz Game with a fun font that compares favorably with the background.
     - The heafer clearly informs the user what game they are playing.
+
+<img src= "assets/images/QUIZ GAME.PNG">
+
+# The Game Results 
+- The Game options includes clear instrustions on how to play the game before you start the quiz.
+- The user is given a question which they have to answer within 15seconds, if they guess correctly the correct answer will display in green.
+- However, if the user guesses incorrectly it will appear in red and the correct answer will be shown in green. 
+- At the end of the quiz the game will announce to the user how many correct answers they got.
+- The score is clearing shown to the user, making the game easy to play and understand.
+<img src= "assets/images/Timer.PNG">
