@@ -9,9 +9,13 @@ body{
 
 h1, h2 {
     font-family: 'Cabin', sans-serif;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #4525fd;
+    font-weight: bold;
+    margin: 30px 12px 0 0;
+    padding: 10px;
 }
 
 #logo {
@@ -25,6 +29,8 @@ h1, h2 {
         font-size: 250%;
         letter-spacing: 6px;
         font-weight: bold;
+        margin-right: 70px;
+
     }
 
  #menu, #logo {
@@ -62,8 +68,9 @@ a {
 
 #quiz-image {
     height: 600px;
-    width: 100%;
+    max-width: 100%;
     background: url('../images/quiz.jpg') no-repeat center center;
+    background-size: cover;
     
 }
 
@@ -561,8 +568,9 @@ footer .next_btn:hover{
   
   /* Create two columns that float next to eachother */
   .column {
-    float: left;
     width: 50%;
+    margin: 0 auto;
+    position: relative;
     margin-top: 6px;
     padding: 20px;
   }
@@ -582,11 +590,10 @@ footer .next_btn:hover{
     }
   
     #quiz-image{
-        width: 100%;
+        max-width: 100%;
         height: 400px;
         margin: 0 auto;
-        object-fit: cover;
-  object-position: bottom;
+   
     }
 
     .info_box{
@@ -606,8 +613,12 @@ footer .next_btn:hover{
     width: 100%;
     margin: 0 auto;
 }
+#quiz-image{
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
   }
-
+}
 
 
 @media screen and (max-width: 800px) {
@@ -615,5 +626,12 @@ footer .next_btn:hover{
         width: 100%;
         margin-top: 25px;
         } 
+        #quiz-image{
+            max-width: 100%;
+            height: 400px;
+            margin: 0 auto;
+            object-fit: cover;
+        }
         
     }
+
