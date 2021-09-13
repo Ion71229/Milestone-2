@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&display=swap');
 
 body{
     font-family: cursive;
@@ -578,7 +578,7 @@ footer .next_btn:hover{
       width: 100%;
       margin-top: 0;
     }
-
+  
     #quiz-image{
         width: 100%;
         height: 400px;
@@ -597,9 +597,9 @@ footer .next_btn:hover{
         width: 100%;
         margin-top: 30px;
   }
+  }
 
-
-  @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .info_box{
     width: 100%;
     margin: 0 auto;
@@ -608,10 +608,10 @@ footer .next_btn:hover{
 
 
 
-  @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
       .quiz_box{
         width: 100%;
         margin-top: 25px;
-        }
- 
+        } 
+        
     }
