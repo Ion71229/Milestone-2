@@ -614,6 +614,7 @@ footer .next_btn:hover{
     width: 35%;
     margin: 0 auto;
     position: relative;
+    top: 85%;
 }
   }
 
@@ -631,6 +632,7 @@ footer .next_btn:hover{
     margin: 0 auto;
     position: relative;
     padding: 5px;
+    top: 85%;
 }
 }
 
@@ -647,10 +649,11 @@ footer .next_btn:hover{
             object-fit: cover;
         }
         #button{
-            width: 30%;
+            width: 35%;
             margin: 0 auto;
             position: relative;
             padding: 5px;
+            top: 85%;
         }
         
     }
