@@ -41,6 +41,7 @@ h1, h2 {
             float: right;
             list-style-type: none;
             margin-right: 30px;
+            padding: 10px;
         }
 
 
@@ -68,27 +69,30 @@ a {
 
 #quiz-image {
     height: 600px;
-    max-width: 100%;
+    width: 90%;
     background: url('../images/quiz.jpg') no-repeat center center;
     background-size: cover;
+    position: relative;
+    margin: 0 auto;
     
 }
 
 
-#button {
+ #button {
+     width: 20%;
     font-size: 30px;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 5px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-   top: 90%;
-    margin: auto;
+    top: 90%;
+    margin: 0 auto;
     position: relative;
-    padding: 2px 80px;
-    display: flex;
+    padding: 5px 60px;
     background-color: #00ffff;
-    border-radius: 30%;
+    border-radius: 5%;
+    background-size: cover;
 }
 
 
@@ -606,6 +610,11 @@ footer .next_btn:hover{
         width: 100%;
         margin-top: 30px;
   }
+  #button{
+    width: 35%;
+    margin: 0 auto;
+    position: relative;
+}
   }
 
 @media screen and (max-width: 1200px) {
@@ -618,6 +627,11 @@ footer .next_btn:hover{
     height: 500px;
     margin: 0 auto;
   }
+  #button{
+    margin: 0 auto;
+    position: relative;
+    padding: 5px;
+}
 }
 
 
@@ -631,6 +645,12 @@ footer .next_btn:hover{
             height: 400px;
             margin: 0 auto;
             object-fit: cover;
+        }
+        #button{
+            width: 30%;
+            margin: 0 auto;
+            position: relative;
+            padding: 5px;
         }
         
     }
