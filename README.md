@@ -2,7 +2,7 @@
 Quiz Game is a game for friends and family to brush up on their general knowledge by answering questions on one or more topics. This quiz will help use what you already know while piqueing your curiosity in learning about new topics and also making it fun to learn.
 
 Users of the game will learn the rules on how to play the Quiz Game and be able to use what they learn in their own lives when talking to friends about fun facts they learnt after playing the game. This site is targeted at children and adults alike as it is a clear app for learning, practicing, and having fun.
-<img src="assets/images/New Capture.PNG" >
+<img src="assets/images/Final Capture.PNG" >
 
 # Author
 ### Ion Simion 
@@ -12,6 +12,7 @@ Users of the game will learn the rules on how to play the Quiz Game and be able 
 - [Quiz Game](#quiz-game)
 - [Author](#author)
 - [Table of Contents](#table-of-contents)
+- [User Experience (UX)](#user-experience-ux)
 - [Features](#features)
     - [Existing Features](#existing-features)
 - [The Game Results](#the-game-results)
@@ -23,8 +24,27 @@ Users of the game will learn the rules on how to play the Quiz Game and be able 
     - [Unfixed Bugs](#unfixed-bugs)
 - [Validator Testing](#validator-testing)
 - [Deployment](#deployment)
+    - [Publising](#publising)
+    - [Forking](#forking)
+    - [Cloning](#cloning)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
+
+# User Experience (UX)
+- New Users 
+  1. As a new user, I want to see a clearly laid out site.
+  2. As a new user, I want to experience a site with good visual design.
+  3. As a new user, I want to find a section that shows me the rules of the game.
+  4. As a new user, I want the site to have an interactive design.
+  5. As a new user, I want to have access to a contact section.
+  6. As a new user, I want ease of access and fluid navigation through different pages and game functions.
+  7. As a new user, I want the site to be responsive on multiple different displays and devices.
+
+- Returning Users
+  1. As a returning user, I want to see improvements and additions to game functions and site design.
+  2. As a returning user, I want to see more quizes with new and interesting questions.
+  3. As a returning user, I want to see continued performance and accessability improvements.
+  4. As a returning user, I want to see if I can improve my previous high score.
 
 # Features 
 ## Existing Features
@@ -84,6 +104,7 @@ Users of the game will learn the rules on how to play the Quiz Game and be able 
 # Deployment
 'GitHub Pages' was used for publishing the website. The procedure was as follows:
 
+# Publising 
 1. Login to the [GitHub](https://github.com/) website.
 2. On the left side of your screen, you can find a summary of all your repositories. [Here is mine.](https://github.com/Ion71229/Milestone-2)
 3. You can find a ribbon on the top of your screen. In the ribbon, click on 'Settings'.
@@ -94,7 +115,19 @@ Users of the game will learn the rules on how to play the Quiz Game and be able 
 8. Refresh the page after a minute and when this text box turns green, the website has been published.
 9. Click the link in the green text box to go to your published website.
 
-<img src= "assets/images/Live Link.PNG">
+# Forking
+- You can contribute to this project without affecting the main branch with the following steps:
+1. Navigate to github repositores select this [repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+2. On the right of the repository name you will find the fork button next to star and watch buttons.
+3. Pressing said button will create a copy for you to use.
+
+# Cloning
+- You can clone this repository to local device with the following steps:
+1. Navigate to github repositores select this [repository](https://ion71229.github.io/Milestone-2/)
+2. Under the repository name there is a green clone or download button.
+
+- The live link can be found here- [Quiz Game](https://ion71229.github.io/Milestone-2/)
+
 
 # Credits
 I used the following websites for my project:
@@ -106,3 +139,6 @@ I used the following websites for my project:
 
 # Acknowledgements
 I would like to thank my mentor Adegbenga Adeye and the slack community for their great advice, tips and the code review.
+
+
+-[Back to Table of Contents](#table-of-contents)
