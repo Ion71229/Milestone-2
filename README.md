@@ -84,7 +84,7 @@ Users of the game will learn the rules on how to play the Quiz Game and be able 
 - I double-checked that the wording in the header, directions, options, results, and footer is clear and understandable.
 - By running it through lighthouse in devtools, I validated that the colors and fonts chosen are easily readable and visible.
 - This project is responsive, looks good, and works on a typical screen widths, according to my testing.
-<img src= "assets/images/Performance.PNG">
+<img src= "assets/images/Final Capture Lighthouse.PNG">
 
 # Bugs
 ## Solved Bugs
